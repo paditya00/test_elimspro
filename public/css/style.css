@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+form {
+    padding: 2% 5% 2% 5%;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.my-icon {
+    font-size: 80pt;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.508);
+    transform: translate(-10%, 18%);
+    transition: 0.3s ease;
+}
+
+.card:hover .my-icon {
+    font-size: 60pt;
+    transform: translate(0, 0);
+}
